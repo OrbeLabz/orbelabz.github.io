@@ -50,7 +50,18 @@ a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 6px; }
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
   padding: 18px 0;
-  background: rgba(9, 11, 20, .8);
+}
+.site-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  z-index: -1;
+  background: rgba(9, 11, 20, .85);
+  border-bottom: 1px solid var(--line);
   backdrop-filter: blur(14px);
 }
 
