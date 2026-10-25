@@ -1,0 +1,8 @@
+/* Somente cores; tipografia e geometria de texto vêm do styles.css original. */
+:root{--space-black:#0B0F19;--deep-navy:#111827;--electric-blue:#2563EB;--cyan:#00F2FE;--violet:#2563EB;--white:#FFFFFF;--muted:#94A3B8;--panel:rgba(17,24,39,.75);--line:rgba(0,242,254,.18)}
+body{background:radial-gradient(circle at 20% 10%,rgba(0,242,254,.08),transparent 26rem),radial-gradient(circle at 80% 15%,rgba(37,99,235,.10),transparent 30rem),linear-gradient(180deg,#0B0F19 0%,var(--space-black) 55%,#0B0F19 100%)}
+.site-header::before{background:rgba(11,15,25,.85)}
+.brand-labz,h1 span{background-image:linear-gradient(90deg,#2563EB,#00F2FE)}
+.button-primary{color:#0B0F19;background:linear-gradient(135deg,#2563EB,#00F2FE);box-shadow:0 10px 38px rgba(0,242,254,.18)}
+.statement{background:linear-gradient(135deg,rgba(0,242,254,.06),rgba(37,99,235,.07))}
+.social-grid a:hover{border-color:rgba(0,242,254,.35);background:rgba(0,242,254,.05)}

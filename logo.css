@@ -1,0 +1,9 @@
+/* PNG oficial: proporção nativa, sem traçar, filtrar ou reamostrar o arquivo. */
+.hero-visual{container-type:inline-size}
+.hero-logo-window{position:absolute;display:block;left:-150px;right:calc((1180px - 100vw)/2 - 12px);top:-100px;bottom:-100px;overflow:hidden;pointer-events:none}
+.hero-visual .brand-symbol-new{position:absolute;display:block;width:160cqw;height:auto;max-width:none;left:calc(150px - 17.5cqw);top:calc(100px - 6.2cqw);transform:none;filter:none;image-rendering:auto}
+@media(max-width:1399px) and (min-width:1101px){.hero-visual .brand-symbol-new{width:146cqw;left:calc(150px - 16cqw);top:calc(100px - 1.2cqw)}}
+@media(max-width:1199px){.hero-logo-window{left:-16px;right:-16px;top:-80px;bottom:-80px}.hero-visual .brand-symbol-new{left:calc(16px - 16cqw);top:calc(80px - 1.2cqw)}}
+@media(max-width:1100px){.hero-visual .brand-symbol-new{width:138cqw;left:calc(16px - 19.4cqw);top:calc(80px + 1.6cqw)}}
+/* Cabeçalho: mesma imagem, caixa e letras preservadas. */
+.brand-mark img{position:absolute;display:block;width:138%;height:auto;max-width:none;left:-19.4%;top:1.6%;object-fit:contain;filter:none;transform:none}
